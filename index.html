@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>ScriBBler</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/index.css">
+
+</head>
+
+<body>
+<div id="header-space" class='container header-container'></div>
+
+<div id="modal-signup" class="modal"></div>
+<div id="modal-signin" class="modal"></div>
+
+<div id="modal-create-post" class="modal"></div>
+
+<div class="post-buttons">
+    <button type="button" class="btn btn-primary button-class post-button" onclick="window.location.href='html/postslist.html'">All Posts
+    </button>
+    <button type="button" class="btn btn-primary button-class post-button" onclick="modal_dialog('modal-create-post','block')">Create Post
+    </button>
+</div>
+
+<script src="./scripts/index.js" n></script>
+</body>
+
+</html>

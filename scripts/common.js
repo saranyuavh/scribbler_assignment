@@ -12,6 +12,10 @@ function insert_modal() {
     document.getElementById('modal-signin').innerHTML = signin_modal;
 }
 
+function modal_dialog(id, display) {
+    document.getElementById(id).style.display = display;
+}
+
 const header =
     "<div class='col-xs-6 header-logo-col'> \
         <div class='row'> \
